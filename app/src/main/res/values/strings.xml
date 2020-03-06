@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Gallery</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_latest">latest</string>
+    <string name="title_top_list">TopList</string>
+    <string name="title_random">random</string>
+</resources>
