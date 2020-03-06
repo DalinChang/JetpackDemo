@@ -1,2 +1,2 @@
-include ':app', ':networklibrary', ':baselibrary'
+include ':app', ':lib-network', ':lib-base'
 rootProject.name='My Gallery'

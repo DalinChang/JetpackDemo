@@ -38,8 +38,8 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment:2.1.0'
     implementation 'androidx.navigation:navigation-ui:2.1.0'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
-    implementation project(path: ':baselibrary')
-    implementation project(path: ':networklibrary')
+    implementation project(path: ':lib-base')
+    implementation project(path: ':lib-network')
     implementation files('libs/jsoup-1.12.1.jar')
     implementation 'com.github.bumptech.glide:glide:4.10.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.10.0'
