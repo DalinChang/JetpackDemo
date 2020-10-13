@@ -1,0 +1,5 @@
+<resources>
+    <item name="lib_base_statusbarutil_fake_status_bar_view" type="id" />
+    <item name="lib_base_statusbarutil_translucent_view" type="id" />
+    <item name="lib_base_translucent_view" type="id" />
+</resources>

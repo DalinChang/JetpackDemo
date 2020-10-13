@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.changlin.gallery.main.latest.LatestFragment"
+        android:name="com.dashan.gallery.ui.main.latest.LatestFragment"
         android:label="@string/title_latest"
         tools:layout="@layout/fragment_latest" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.changlin.gallery.main.toplist.TopListFragment"
+        android:name="com.dashan.gallery.ui.main.toplist.TopListFragment"
         android:label="@string/title_top_list"
         tools:layout="@layout/fragment_toplist" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.changlin.gallery.main.random.RandomFragment"
+        android:name="com.dashan.gallery.ui.main.random.RandomFragment"
         android:label="@string/title_random"
         tools:layout="@layout/fragment_random" />
 </navigation>

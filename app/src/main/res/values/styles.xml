@@ -3,9 +3,10 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">#3A5FCD</item>
+        <item name="colorPrimaryDark">#3A5FCD</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="titleTextColor">#FFFFFF</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -13,6 +14,17 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <!-- ToolBar菜单样式 -->
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="titleTextColor">#FFFFFF</item>
+        <item name="actionMenuTextColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+    <style name="ItemImageTitleTheme">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
